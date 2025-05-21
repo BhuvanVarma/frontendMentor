@@ -96,6 +96,12 @@ main{
     margin-bottom: 12px;
 }
 
+.container h2:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+
 .description{
     color: var(--grey-500);
     font-size: var(--text-2-size);
@@ -121,3 +127,13 @@ main{
     width: 32px;
     margin-right: var(--spacing-150);
 }
+
+@media (max-width: 425px) {
+    main{
+        width: 327px;
+    }
+
+    .mainImg{
+        height: 200px;
+    }
+  }
