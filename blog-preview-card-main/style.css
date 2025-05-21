@@ -1,0 +1,123 @@
+:root{
+    --yellow: #F4D04E;
+    --grey-950: #111111;
+    --grey-500: #6B6B6B;
+    --white: #ffffff;
+
+     /* Typography */
+    --font-family-primary: 'Figtree', sans-serif;
+
+    --text-1-size: 24px;
+    --text-1-line-height: 1.5;
+    --text-1-letter-spacing: 0px;
+    --text-1-weight: 800; /* Extra Bold */
+
+    --text-2-size: 16px;
+    --text-2-line-height: 1.5;
+    --text-2-letter-spacing: 0px;
+    --text-2-weight: 500; /* Medium */
+
+    --text-3-size: 14px;
+    --text-3-line-height: 1.5;
+    --text-3-letter-spacing: 0px;
+    --text-3-weight: 500; /* Medium */
+
+    --text-3-bold-weight: 800; /* Extra Bold */
+
+    /* Spacing (vertical rhythm / margins / paddings) */
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    height: 100vh;
+}
+
+main{
+    background-color: var(--white);
+    max-width: 384px;
+    max-height: 522px;
+    border: var(--grey-950) solid 1px;
+    padding: var(--spacing-300);
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 2px black;
+}
+
+.mainImg{
+    border-radius: 10px;
+    margin-bottom: var(--spacing-300);
+}
+
+.container{
+    margin-bottom: var(--spacing-300);
+}
+
+.container h3{
+    background-color: var(--yellow);
+    color: #111111;
+    height: 29px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    font-size: var(--text-3-size);
+    font-weight: var(--text-3-bold-weight);
+    letter-spacing: var(--text-3-letter-spacing);
+}
+
+.date{
+    color: var(--grey-950);
+    font-size: var(--text-3-size);
+    font-weight: var(--text-3-weight);
+    letter-spacing: var(--text-3-letter-spacing);
+    margin-bottom: 12px;
+}
+
+.container h2{
+    color: var(--grey-950);
+    font-size: var(--text-1-size);
+    font-weight: var(--text-1-weight);
+    letter-spacing: var(--text-1-letter-spacing);
+    margin-bottom: 12px;
+}
+
+.description{
+    color: var(--grey-500);
+    font-size: var(--text-2-size);
+    font-weight: var(--text-2-weight);
+    letter-spacing: var(--text-2-letter-spacing);
+}
+
+.tutorName{
+    display: flex;
+}
+
+.tutorName p{
+    display: flex;
+    align-items: center;
+    font-size: var(--text-3-size);
+    font-weight: var(--text-3-bold-weight);
+    letter-spacing: var(--text-3-letter-spacing);
+
+}
+
+.avatar{
+    height: 32px;
+    width: 32px;
+    margin-right: var(--spacing-150);
+}
