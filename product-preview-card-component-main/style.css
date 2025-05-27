@@ -130,7 +130,7 @@
 
   button{
     height: 50px;
-    width: 286px;
+    width: 100%;
     background-color: var(--color-green-500);
     border-radius: 8px;
     color: var(--color-white);
@@ -157,4 +157,26 @@
     background-color: var(--color-green-700);
     cursor: pointer;
     transition: 0.5s ease-out;
+  }
+
+  @media (min-width: 768px) {
+    /* Styles for screens 768px and wider (e.g., tablets, desktops) */
+    main{
+        width: 600px;
+        display: flex;
+    }
+
+    .img {
+        background-image: url(./images/image-product-desktop.jpg);
+        height: 456px;
+        width: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 8px 0 0 8px;
+      }
+    
+      .content{
+        width: 300px;
+      }
   }
