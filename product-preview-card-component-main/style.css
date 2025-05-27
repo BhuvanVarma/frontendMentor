@@ -95,7 +95,7 @@
     font-weight: bold;
   }
 
-  .title p{
+  .discription{
     font-size: var(--text-preset-3-size);
     line-height: var(--text-preset-3-line-height);
     letter-spacing: var(--text-preset-3-letter-spacing);
