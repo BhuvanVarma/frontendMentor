@@ -264,11 +264,13 @@ div .instructions{
 }
 
 @media (min-width: 768px) {
+    body{
+        margin: 128px
+    }
     main{
         padding: var(--spacing-500);
         width: 616px;
         border-radius: 24px;
-        margin: 128px 0;
     }
 
     img{
